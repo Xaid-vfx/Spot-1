@@ -1,0 +1,143 @@
+body{
+    background-color:black;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    position: sticky;
+    top:0;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+.brand img{
+    width: 46px;
+    margin: 5px;
+    padding-right: 5px;
+}
+ .brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size:larger;
+ }
+ nav ul li{
+    padding: 13px;
+ }
+ .container{
+    min-height: 80%;
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 20px;
+    padding: 30px;
+    background-image:url('bg2.jpg');
+    justify-content: center;
+ }
+.bottom{
+    background-color: black;
+    position:absolute;
+    height: 150px;
+    bottom: 0;
+    right: 10%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+ }
+#progbar{
+    width: 80vw;
+    
+}
+.icons{
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    display: flex;
+    gap: 15px;
+}
+.songitem{
+    display: flex;
+    height: 50px;
+    width: 118%;
+    color: white;
+    right: 0%;
+    justify-content: space-between;
+    margin: 10px 0;
+    border-radius: 34px;
+    align-items: center;
+}
+.songitem img{
+    border-radius: 20%;
+    margin: 10px 0;
+    width: 43px;
+}
+.timestamp{
+    margin: 10px;
+    right: 0;
+}
+.timestamp i{
+    cursor: pointer;
+    padding: 7px;
+}
+.sic{
+    margin-top: 40px;
+}
+.songinfo{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity .4s ease-in ;
+
+}
+
+.home{
+    cursor: pointer;
+    background: black;
+    color: white;
+    border: black;
+    padding: 10px;
+}
+.link{
+text-decoration: none; 
+ text-decoration: none;
+}
+.para{
+    color: white;
+    margin: 50px;
+    height: 69%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+body {
+    font-family: 'Varela Round', sans-serif;
+}
+.gif{
+left:0%;
+position: absolute;
+}
+.songName{
+    padding: 7%;
+}
+.footer{
+    color: white;
+    bottom: auto;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
